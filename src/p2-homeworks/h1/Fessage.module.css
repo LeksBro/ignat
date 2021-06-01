@@ -1,0 +1,79 @@
+
+.messages{
+    position: relative;
+    border-radius: 5px;
+    margin-left: 100px;
+    height: 100px;
+    width: 500px;
+    background-color: #503a31;
+
+
+}
+
+.container{
+    margin-top: 20px;
+    position:absolute ;
+    margin-left: 80px;
+    border-radius: 20px;
+    width: 300px;
+    height: 60px;
+    background-color: green;
+    z-index: 2;
+
+}
+.container:before{
+    position:absolute;
+    content:"";
+    margin-top: 20px;
+    margin-right: 295px;
+    right:-14px;
+    top:10px;
+    width:55px;
+    height:30px;
+    background: green;
+    z-index: 1;
+
+}
+.container:after{
+    border-radius:0 0 100px 0;
+    position:absolute;
+    content:"";
+    margin-top: 20px;
+    margin-right:314px;
+    right:-14px;
+    top:10px;
+    width:55px;
+    height:30px;
+    background: #503a31;
+    z-index: 2;
+}
+.item1{
+    color: #402b2b;
+    font-weight: bold;
+    font-size: 16px;
+    position: absolute;
+    right: 195px;
+display: inline-block;
+}
+.item2{
+    position: absolute;
+    left: 25px;
+    display: inline-block;
+    top: 30px;
+}
+.item3{
+    left: 230px;
+    top: 40px;
+    position: absolute;
+}
+.image{
+    z-index: 3;
+    position: absolute;
+    left: -60px;
+
+}
+.lockimage{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}

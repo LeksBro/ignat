@@ -1,0 +1,18 @@
+.block{
+    text-shadow: 0 0 0 20px;
+    margin-left: 50px;
+}
+.image{
+    position: absolute;
+    height: 25px;
+    margin-left: -25px;
+}
+.high{
+    color: red;
+}
+.middle{
+    color: green;
+}
+.low{
+    color: rosybrown;
+}

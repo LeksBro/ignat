@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+padding: 5%;
+}
+.mainMargin{
+
+    padding-left: 25% ;
+    transition: all 0.4s;
+}
+nav {
+    height: 50px;
+    width: 100%;
+    background-color: #9cb1ba;
+    position: fixed;
+    z-index: 50;
+    display: flex;
+    align-items: center;
+}
+p{
+    margin: 20px;
+}
+.burgerBtn{
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+    position: relative;
+    z-index: 100;
+    cursor: pointer;
+}
+.burgerBtn span{
+    width: 25px;
+    position: absolute;
+    top: 14px;
+    background-color: #282c34;
+    height: 2px;
+
+}
+.burgerBtn:before{
+    width: 25px;
+    content: '';
+    height: 2px;
+    position: absolute;
+    top: 0;
+    background-color: #282c34;
+}
+.burgerBtn:after{
+    content: '';
+    width: 25px;
+    position: absolute;
+    bottom: 0;
+    background-color: #282c34;
+    height: 2px;
+}
+main{
+
+}
